@@ -1,0 +1,193 @@
+
+
+/* body {
+    margin : 0px; 
+    overflow: hidden;
+    font-family: Monospace;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+} */
+
+
+/* Open Modal Button */
+.open-modal-button-1 {
+    background-color: coral;
+    padding: 1em 2em;
+    color: #fff;
+    border: 0;
+    /* border: 1px solid #888; */
+    width: 80%;
+}
+
+.open-modal-button-1:hover {
+    background: #333;
+}
+
+
+
+
+
+/* The Modal Window (background) */
+.modal-message-window    ,   
+.modal-myModal ,    
+.modal-window-1     {
+    /* display: none; */  /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 1px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    /* background-color: rgb(0,0,0); */ /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-message-content   ,   
+.modal-content-myModal   ,   
+.modal-content-1    {
+    background-color: #f4f4f4;
+    margin: 10% auto; /* percent sets how high you want the window */
+    /* padding: 20px; */ /* removed to make the header and footer */
+    width: 75%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2) , 0 7px 20px 0 rgba(0,0,0,0.17);
+    /* border: 1px solid #888; */
+    animation-name: modalopen; /* keyframe is below */
+    animation-duration: 2s; /* how long it takes to fade in */
+}
+
+@keyframes modalopen {
+    from { opacity: 0}
+    to { opacity: 1}
+}
+
+
+
+
+
+/* Modal Content Header */
+.modal-content-header-1 {
+    background: darkblue;
+    padding: 15px;
+    color: #fff;
+}
+
+.modal-content-header-1 h2 {
+    margin: 0;
+}
+
+
+
+
+
+/* Modal Content Body */
+.modal-content-body-1 {
+    padding: 0px 20px 10px 20px ;  /* top right bottom left */
+}
+
+
+
+
+
+/* Modal Content Footer */
+.modal-content-footer-1 {
+    /* background: coral; */
+    background: lightgrey;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.modal-content-footer-1 h3 {
+    /* margin: 0.5; */
+}
+
+
+
+
+
+/* The Close Button */
+.modal-message-close-button  ,  
+.modal-content-myModal-close-button  ,   
+.button-close-modal-1  
+{
+    border-radius: 15px 50px 30px; /* fun shape */
+    /* border-radius: 25px; */
+    padding: 5px; 
+
+    color: white;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    align-content: center;
+}
+
+.modal-message-close-button:hover , 
+.modal-message-close-button:focus ,
+
+.modal-content-myModal-close-button:hover ,
+.modal-content-myModal-close-button:focus ,
+
+.button-close-modal-1:hover ,
+.button-close-modal-1:focus 
+{
+    border-radius: 15px 50px 30px; /* fun shape */
+    /* border-radius: 25px; */
+    padding: 5px; 
+
+    background: coral;
+    color: lightyellow;
+    
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    align-content: center;
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* The Close Button */
+.button-close-modal-2   {
+    /* border-radius: 15px 50px 30px; */ /* fun shape */
+    border-radius: 25px;
+    padding: 10px; 
+
+    background: grey;
+    color: white;
+
+
+    font-size: 25px;
+    font-weight: bold;
+    align-content: center;
+}
+
+.button-close-modal-2:hover ,
+.button-close-modal-2:focus {
+    /* border-radius: 15px 50px 30px; */ /* fun shape */
+    border-radius: 25px;
+    padding: 10px; 
+
+    background: coral;
+    color: lightyellow;
+    
+    font-size: 25px;
+    font-weight: bold;
+    align-content: center;
+
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
